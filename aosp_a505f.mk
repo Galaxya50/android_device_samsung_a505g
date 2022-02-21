@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit from a505f device
-$(call inherit-product, device/samsung/a505f/device.mk)
+## Inherit from a505g device
+$(call inherit-product, device/samsung/a505g/device.mk)
 
 ## Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -34,10 +34,10 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a505f
-PRODUCT_NAME := aosp_a505f
+PRODUCT_DEVICE := a505g
+PRODUCT_NAME := aosp_a505g
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A505F
+PRODUCT_MODEL := SM-A505G
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 28
 
@@ -46,7 +46,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 ## Use the latest CTS approved build identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=a50 \
-    PRODUCT_NAME=a50dd \
-    PRIVATE_BUILD_DESC="a50dd-user 11 RP1A.200720.012 A505FDDS9CUK1 release-keys"
+    PRODUCT_NAME=a50ub \
+    PRIVATE_BUILD_DESC="a50ub-user 11 RP1A.200720.012 A505GUBS9CVA3 release-keys"
 
-BUILD_FINGERPRINT := samsung/a50dd/a50:11/RP1A.200720.012/A505FDDS9CUK1:user/release-keys
+BUILD_FINGERPRINT := samsung/a50ub/a50:11/RP1A.200720.012/A505GUBS9CVA3:user/release-keys

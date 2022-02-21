@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a505f.mk
+    $(LOCAL_DIR)/aosp_a505g.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a505f-eng \
-    aosp_a505f-user \
-    aosp_a505f-userdebug
+    aosp_a505g-eng \
+    aosp_a505g-user \
+    aosp_a505g-userdebug
